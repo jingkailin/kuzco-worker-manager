@@ -6,7 +6,6 @@ import re
 import signal
 import select
 import os
-import psutil
 from datetime import datetime, timedelta
 
 stop_flag = threading.Event()
